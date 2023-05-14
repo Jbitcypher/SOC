@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Example</title>
+  <link rel="stylesheet" href="styles1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+</head>
+
+
+<body>
+  <div class="card" data-state="#about">
+    <div class="card-header">
+      <div class="card-cover" style="background-image: url('cover.jpg')"></div>
+      <img class="card-avatar" src="profile-picture.jpg" alt="avatar" />
+      <h1 class="card-fullname">juan lopez</h1>
+      <h2 class="card-jobtitle">Soc Analyst</h2>
+    </div>
+    <div class="card-main">
+      <div class="card-section is-active" id="about">
+        <div class="card-content">
+          <div class="card-subtitle">ABOUT</div>
+          <p class="card-desc">SOC analyst, Data Analyst, duck lover podemos hablar de ciencia, arte y seguridad.
+            ¡SI! también puedo arreglar tu impresora</p>
+        </div>
+        <div class="card-social">
+          <a href="https://github.com/Jbitcypher"><i class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com/threattraker/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/juan-lopezbian/"><i class="fab fa-linkedin-in"></i></a>
+        </div>        
+        </div>
+      </div>
+      <div class="card-section" id="experience">
+        <div class="card-content">
+          <div class="card-subtitle">WORK EXPERIENCE</div>
+          <div class="card-timeline">
+            <div class="card-item" data-year="2022">
+              <div class="card-item-title">Data analyst en <span>MetaMusee</span></div>
+              <div class="card-item-desc">
+                Data análisis para proyectos artísticos
+                <a href="https://www.coursera.org/account/accomplishments/professional-cert/29PLLTJZCZJ3" target="_blank" class="certificate-link">¡tengo un certificado!</a>
+              </div>
+            </div>
+            <div class="card-item" data-year="2023">
+              <div class="card-item-title">SOC analyst y Bug Hunter <span>Autónomo</span></div>
+              <div class="card-item-desc">Análisis de amenazas, Reporte de bugs</div>
+              <a href="https://www.coursera.org/account/accomplishments/professional-cert/TQCGZATPFYRM" target="_blank" class="certificate-link">¡tengo un certificado!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="card-section" id="contact">
+        <div class="card-content">
+          <div class="card-subtitle">CONTACTO</div>
+          <div class="card-contact-wrapper">
+            <div class="card-contact">
+              <i class="fas fa-map-marker-alt"></i>
+              Buenos Aires, Argentina
+            </div>
+            <div class="card-contact">
+              <i class="fas fa-envelope"></i>
+              lopezjuanjose@abc.gob.ar
+            </div>
+            <a href="contact.html">
+              <button class="contact-me">WORK TOGETHER</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="card-buttons">
+        <button data-section="#about" class="is-active">ABOUT</button>
+        <button data-section="#experience">EXPERIENCE</button>
+        <button data-section="#contact">CONTACT</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
