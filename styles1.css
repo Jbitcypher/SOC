@@ -17,6 +17,31 @@ body {
   grid-template-areas: "card1 card2"; /* Asigna áreas a las tarjetas */
 }
 
+
+body.dark-mode {
+  /* Estilos para el modo oscuro */
+  background-color: #2b2c48;
+  color: #ffffff;
+}
+
+
+body.dark-mode .main {
+  background-color: #1c1d2f;
+}
+
+body.dark-mode .card {
+  background-color: #333344;
+  color: #ffffff;
+}
+
+body.dark-mode .card-header {
+  background-color: #1c1d2f;
+}
+
+/* ... Agrega más estilos para los elementos que deseas modificar en modo oscuro ... */
+
+
+
 .card {
   max-width: 720px;
   width: 100%;

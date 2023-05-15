@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const cards = document.querySelectorAll(".card");
+  const darkModeToggle = document.getElementById("dark-mode-toggle");
+  const body = document.querySelector("body");
 
   cards.forEach((card) => {
     const buttons = card.querySelectorAll(".card-buttons button");
@@ -19,5 +21,9 @@ document.addEventListener("DOMContentLoaded", () => {
     buttons.forEach((btn) => {
       btn.addEventListener("click", handleButtonClick);
     });
+  });
+
+  darkModeToggle.addEventListener("click", () => {
+    body.classList.toggle("dark-mode");
   });
 });
