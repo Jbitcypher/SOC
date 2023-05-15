@@ -13,9 +13,9 @@
 
 
 <body>
-  <div class="card" data-state="#about">
+  <div id="card1" class="card" data-state="#about">
     <div class="card-header">
-      <div class="card-cover" style="background-image: url('cover.jpg')"></div>
+      <div class="card-cover" style="background-image: url('cover2.jpg')"></div>
       <img class="card-avatar" src="profile-picture.jpg" alt="avatar" />
       <h1 class="card-fullname">juan lopez</h1>
       <h2 class="card-jobtitle">Soc Analyst</h2>
@@ -24,8 +24,7 @@
       <div class="card-section is-active" id="about">
         <div class="card-content">
           <div class="card-subtitle">ABOUT</div>
-          <p class="card-desc">SOC analyst, Data Analyst, duck lover podemos hablar de ciencia, arte y seguridad.
-            ¡SI! también puedo arreglar tu impresora</p>
+          <p class="card-desc">Soy un analista de seguridad con experiencia en análisis de datos. Mi pasión por la seguridad cibernética y el análisis de datos me impulsa a proteger y salvaguardar los sistemas contra las amenazas digitales. Además de mi dedicación a la seguridad, tengo un profundo interés en la ciencia, el arte y la tecnología.</p>
         </div>
         <div class="card-social">
           <a href="https://github.com/Jbitcypher"><i class="fab fa-github"></i></a>
@@ -78,6 +77,66 @@
         <button data-section="#contact">CONTACT</button>
       </div>
     </div>
+
+
+
+
+    <div id="card2" class="card" data-state="#about">
+      <div class="card-header">
+        <div class="card-cover" style="background-image: url('cover.jpg')"></div>
+        <img class="card-avatar" src="profile-picture.jpg" alt="avatar" />
+        <h1 class="card-fullname">Habilidades</h1>
+        <h2 class="card-jobtitle">tecnicas y blandas</h2>
+      </div>
+      <div class="card-main">
+        <div class="card-section is-active" id="about">
+          <div class="card-content">
+            <div class="card-subtitle"></div>
+            <p class="card-desc">Mi fuerte son la deteccion temprana de amenazas y el analisis de grandes volumenes de datos.</p>
+            <p class="card-desc">tengo buen nivel de comincacion ingles/español, tambien me gustaria aprender sobre pen-testing</p>        
+          </div>
+        </div>
+        <div class="card-section" id="experience">
+          <div class="card-content">
+            <div class="card-subtitle">¿que aprendi y donde?</div>
+            <div class="card-timeline">
+              <div class="card-item" data-year="2022">
+                <div class="card-item-title">Pensameinto critico y mentalidad analitica en <span>MetaMusee</span></div>
+                <div class="card-item-desc">
+                  grandes volumenes de datos,manejados con python, pensamiento critico para toma de decisiones
+                </div>
+              </div>
+              <div class="card-item" data-year="2023">
+                <div class="card-item-title">Flujo de trabajo,analisis de amenazas en Google<span></span></div>
+                <div class="card-item-desc">Análisis de amenazas, Reporte de vulnerabilidades</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card-section" id="contact">
+          <div class="card-content">
+            <div class="card-subtitle">PROYECTOS</div>
+            <div class="card-contact-wrapper">
+              <div class="card-contact">
+                <i class="fas fa-map-marker-alt"></i>
+                Buenos Aires, Argentina
+              </div>
+              <div class="card-contact">
+                <i class="fas fa-envelope"></i>
+                lopezjuanjose@abc.gob.ar
+              </div>
+                <button class="contact-me">WORK TOGETHER</button>
+            </div>
+          </div>
+        </div>
+        <div class="card-buttons">
+          <button data-section="#about" class="is-active">ABOUT</button>
+          <button data-section="#experience">EXPERIENCE</button>
+          <button data-section="#contact">CONTACT</button>
+        </div>
+      </div>
+
   </div>
   <script src="script.js"></script>
 </body>
