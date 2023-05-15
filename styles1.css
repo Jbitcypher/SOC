@@ -38,7 +38,24 @@ body.dark-mode .card-header {
   background-color: #1c1d2f;
 }
 
-/* ... Agrega más estilos para los elementos que deseas modificar en modo oscuro ... */
+.dark-mode-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #2b2c48;
+  color: #ffffff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.dark-mode-toggle:hover {
+  background-color: #4c4d69;
+}
+
 
 
 
